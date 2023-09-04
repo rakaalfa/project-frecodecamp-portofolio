@@ -164,13 +164,22 @@ footer p {
         font-size: 20px;
     }
     #projects {
-        padding: 4rem 9rem 10rem;
+        padding: 4rem 4rem 10rem;
+    }
+    
+}
+@media (max-width: 325px) {
+    
+    .project-tile {
+        width: 17rem;
     }
     footer p {
         font-size: 12px;
     }
     .project-grid {
-        width: 80%;
-        
+        width: 60%;
+    }
+    h2 {
+        font-size: 20px;
     }
 }
